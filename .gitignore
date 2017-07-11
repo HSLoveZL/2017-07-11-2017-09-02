@@ -18,3 +18,5 @@ SteamVR
 TutorialInfo
 
 *.meta
+VRSampleScenes
+*.asset
