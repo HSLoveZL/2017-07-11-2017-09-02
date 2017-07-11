@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用凝视获取坐标（2017-07-11）", "使用凝视获取坐标（2017-07-11）.csproj", "{482FFAD4-7048-6733-B5B0-943BCB5BBDAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "使用凝视获取坐标（2017-07-11）.Editor", "使用凝视获取坐标（2017-07-11）.Editor.csproj", "{4C0C026E-639D-AC89-6AD7-8FE94968D779}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{482FFAD4-7048-6733-B5B0-943BCB5BBDAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482FFAD4-7048-6733-B5B0-943BCB5BBDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482FFAD4-7048-6733-B5B0-943BCB5BBDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482FFAD4-7048-6733-B5B0-943BCB5BBDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0C026E-639D-AC89-6AD7-8FE94968D779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0C026E-639D-AC89-6AD7-8FE94968D779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0C026E-639D-AC89-6AD7-8FE94968D779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0C026E-639D-AC89-6AD7-8FE94968D779}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
