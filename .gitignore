@@ -18,5 +18,11 @@ SteamVR
 TutorialInfo
 
 *.meta
+
 VRSampleScenes
+
 *.asset
+
+Temp
+
+GoogleVR
