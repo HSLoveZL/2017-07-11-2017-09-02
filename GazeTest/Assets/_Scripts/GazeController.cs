@@ -27,20 +27,27 @@ public class GazeController : MonoBehaviour {
 	private Vector3 originScale;
 
 	// Use this for initialization
-	void Start () {
+	void Start()
+	{
 		originPos = reticleCanvas.transform.localPosition;//准星初始位置
 		originScale = reticleCanvas.transform.localScale;
 
-		InvokeRepeating("GetDatas", 0.0f, 0.05f);
+		InvokeRepeating("GetDatas", 0.0f, 0.1f);
 	}
-	
+
 	// Update is called once per frame
-	void GetDatas() {
+	void Update()
+	{
+		
+	}
+
+	void GetDatas()
+	{
 		Ray ray = new Ray(transform.position, transform.forward);
 		RaycastHit hit;
-		if(Physics.Raycast(ray, out hit, 100))
+		if (Physics.Raycast(ray, out hit, 100))
 		{
-			reticleCanvas.transform.position = hit.point;//获取准星碰撞点坐标
+			reticleCanvas.transform.localPosition = hit.point;//获取准星碰撞点坐标
 			Debug.Log(hit.point);
 			reticleCanvas.transform.forward = hit.normal;//准星与物体法线方向保持一致
 			reticleCanvas.transform.localScale = originScale * hit.distance;//保持准星大小一致

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GazeTest", "GazeTest.csproj", "{4E8E3F37-C125-3F28-EED2-C614EC42ED86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GazeTest.Editor", "GazeTest.Editor.csproj", "{B9FDCCDD-1047-4D7F-9455-AB3400EDD3B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E8E3F37-C125-3F28-EED2-C614EC42ED86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E8E3F37-C125-3F28-EED2-C614EC42ED86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E8E3F37-C125-3F28-EED2-C614EC42ED86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E8E3F37-C125-3F28-EED2-C614EC42ED86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9FDCCDD-1047-4D7F-9455-AB3400EDD3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9FDCCDD-1047-4D7F-9455-AB3400EDD3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9FDCCDD-1047-4D7F-9455-AB3400EDD3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9FDCCDD-1047-4D7F-9455-AB3400EDD3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
