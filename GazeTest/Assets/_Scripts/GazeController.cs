@@ -33,7 +33,7 @@ public class GazeController : MonoBehaviour {
 		originPos = reticleCanvas.transform.localPosition;//准星初始位置
 		originScale = reticleCanvas.transform.localScale;
 
-		FileStream f = new FileStream(@"D:\UnityConsole\test.csv", FileMode.OpenOrCreate, FileAccess.Write);
+		FileStream f = new FileStream(@"D:\UnityConsole\test001.csv", FileMode.OpenOrCreate, FileAccess.Write);
 		StreamWriter sw = new StreamWriter(f);
 		sw.BaseStream.Seek(0, SeekOrigin.End);
 		sw.WriteLine(Environment.NewLine);
@@ -55,12 +55,12 @@ public class GazeController : MonoBehaviour {
 
 	void GetDatas()
 	{
-		Ray ray = new Ray(transform.position, transform.forward);
+		Ray ray = new Ray(transform.localPosition, transform.forward);
 		RaycastHit hit;
 		if (Physics.Raycast(ray, out hit, 100))
 		{
 			reticleCanvas.transform.localPosition = hit.point;//获取准星碰撞点坐标
-			using (FileStream fileW = new FileStream(@"D:\UnityConsole\test.csv", FileMode.OpenOrCreate, FileAccess.Write))
+			using (FileStream fileW = new FileStream(@"D:\UnityConsole\test001.csv", FileMode.OpenOrCreate, FileAccess.Write))
 			{
 				StreamWriter sw = new StreamWriter(fileW);
 				sw.BaseStream.Seek(0, SeekOrigin.End);
